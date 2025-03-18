@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #bd16d0;
+}
+
+#container {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Added for absolute positioning of buttons */
+}
+
+button {
+    margin: 20px;
+    padding: 20px 40px; /* Increased padding for bigger buttons */
+    font-size: 24px; /* Increased font size */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff69b4; /* Pink background color */
+    color: white; /* Changed text color to white */
+    transition: background-color 0.3s; /* Added transition for hover effect */
+}
+
+button:hover {
+    background-color: #ff1493; /* Darker pink shade on hover */
+}
